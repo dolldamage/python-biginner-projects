@@ -1,0 +1,15 @@
+name = input("What's your name? ")
+lastname = input("Sure! What's your last name? ")
+age = input("How old are you? ")
+city = input("Where are you from? ")
+job = input("What's your job? ")
+
+print("Thanks! Please tap enter to show your registration form:")
+input()
+
+print("-" * 3, "Registration Form", "-" * 3)
+print(f"Full name: {name} {lastname}")
+print(f"Age: {age}")
+print(f"City: {city}")
+print(f"Job: {job}")
+print("-" * 30)
